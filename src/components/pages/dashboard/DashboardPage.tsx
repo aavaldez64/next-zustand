@@ -1,5 +1,6 @@
 import { IoAccessibilityOutline, IoHeartOutline, IoListOutline, IoLockClosedOutline, IoPawOutline } from 'react-icons/io5';
 import { WhiteCard } from '@/components';
+import DashboardItem from './DashboardItem';
 
 export const Dashboard = () => {
   return (
@@ -13,7 +14,7 @@ export const Dashboard = () => {
         <WhiteCard centered>
           <IoPawOutline size={ 50 } className="text-indigo-600" />
           <h2>Osos</h2>
-          <p>Información</p>
+          <DashboardItem item="totalBears"/>
         </WhiteCard>
 
 

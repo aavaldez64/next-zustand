@@ -13,7 +13,7 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  { title: 'Dashboard', subTitle: 'Visualizar data', href: '', Icon: IoSpeedometerOutline },
+  { title: 'Dashboard', subTitle: 'Visualizar data', href: '/', Icon: IoSpeedometerOutline },
   { title: 'Osos', subTitle: 'Manejador de osos', href: '/bears', Icon: IoPawOutline },
   { title: 'Persona', subTitle: 'Nombre y apellido', href: '/person', Icon: IoAccessibilityOutline },
   { title: 'Tareas', subTitle: 'Listado de tareas', href: '/tasks', Icon: IoListOutline },

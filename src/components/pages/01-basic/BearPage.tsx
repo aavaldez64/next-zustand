@@ -1,4 +1,5 @@
 import { WhiteCard } from '@/components';
+import { BearCard } from './BearCard';
 
 export const BearPage = () => {
   return (
@@ -9,42 +10,9 @@ export const BearPage = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
 
-        <WhiteCard centered>
-          <h2>Osos Negros</h2>
-
-          <div className="flex flex-col md:flex-row">
-            <button> +1</button>
-            <span className="text-3xl mx-2 lg:mx-10"> 0 </span>
-            <button>-1</button>
-          </div>
-
-        </WhiteCard>
-
-        <WhiteCard centered>
-          <h2>Osos Polares</h2>
-
-          <div className="flex flex-col md:flex-row">
-            <button> +1</button>
-            <span className="text-3xl mx-2 lg:mx-10"> 0 </span>
-            <button>-1</button>
-
-          </div>
-
-        </WhiteCard>
-
-        <WhiteCard centered>
-          <h2>Osos Pandas</h2>
-
-          <div className="flex flex-col md:flex-row">
-            <button> +1</button>
-            <span className="text-3xl mx-2 lg:mx-10"> 0 </span>
-            <button>-1</button>
-          </div>
-
-        </WhiteCard>
-
-
-
+        <BearCard title="Osos Negros" property="blackBears"/>
+        <BearCard title="Osos Polares" property="polarBears"/>
+        <BearCard title="Osos Pandas" property="pandaBears"/>
 
       </div>
 
